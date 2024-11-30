@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-size: 28px;
+}
+header div{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+header{
+    background-color: #fff;
+    color: #A2110F;
+    padding: 1em;
+}
+nav{
+    text-align: center;
+    justify-content: space-between;
+}
+
+h3{
+    text-align: center;
+}
+
+nav a{
+    color: #A2110F;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 16px;
+}
+
+nav a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.home{
+    width: 60%;
+    float: right;
+    padding: 32px 16px;
+    margin-top: 32px;
+    color: #fff;
+    /* border: solid 2px red; */
+}
+
+.school{
+    width: 50%;
+    float: right;
+    font-size: 28px;
+    padding: 32px 16px;
+}
+
+.features{
+    float: left;
+    font-size: 28px;
+    width: 50%;
+    padding: 32px 16px;
+}
+
+.love{
+    padding: 32px 16px;
+}
+
+.form{
+    padding: 32px;
+    border: solid 2px white;
+    background-color:#A2110F;
+    width: 50%;
+    margin: 32px auto;
+}
+
+.can{
+    padding: 32px;
+    margin: 32px auto;
+}
+
+.can a{
+    color: burlywood;
+}
